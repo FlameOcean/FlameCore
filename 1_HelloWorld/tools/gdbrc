@@ -1,0 +1,2 @@
+target remote | qemu-system-i386 -S -gdb stdio -drive format=raw,file=bin/boot.img
+break *0x7C00
